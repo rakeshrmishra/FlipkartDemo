@@ -40,6 +40,8 @@ namespace Flipkart.Common
 
         public IWebDriver getDriver => Driver;
 
+        public object TimeSpan { get; internal set; }
+
         public void Close()
         {
             Driver.Close();

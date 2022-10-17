@@ -24,8 +24,7 @@ namespace Flipkart.PageObjects
 			element = null;
 			try
 			{
-				//element = utils.FindElementByLocator(driver, LoginScreenMap["Product_Category"]);
-				element = utils.FindElementByLocator(driver, "xPath+//*[text()='Mobiles & Tablets']");
+				element = utils.FindElementByLocator(driver, LoginScreenMap["Product_Category"]);
 			}
 			catch (Exception ex)
 			{

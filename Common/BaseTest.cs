@@ -5,6 +5,7 @@
     using ReportingLibrary;
     using SeleniumHelperLibrary;
     using System;
+    using Flipkart.PageObjects;
 
     [TestClass]
     public class BaseTest

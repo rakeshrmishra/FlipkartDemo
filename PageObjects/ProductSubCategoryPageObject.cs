@@ -24,8 +24,7 @@ namespace Flipkart.PageObjects
 			element = null;
 			try
 			{
-				//element = utils.FindElementByLocator(driver, LoginScreenMap["Add_To_Cart"]);
-				element = utils.FindElementByLocator(driver, "xPath+//*[@id='container']/div/div[3]/div/div[2]/div[2]/div/div/div/a/div[2]/div[1]/div[1]");
+				element = utils.FindElementByLocator(driver, "xPath+//*[@id='container']/div/div[3]/div[1]/div[1]/div[2]/div/ul/li[1]/button");
 			}
 			catch (Exception ex)
 			{

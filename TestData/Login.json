@@ -1,11 +1,11 @@
 ﻿{
   "elements": [ //dictionary<string,string> elements = new dictionary<string,string>();
     [ "Close_SignIN", "xPath", "//button[text()='✕']" ],
-    [ "Product_Category", "xPath", "//*[text()='Mobiles & Tablets']" ],
-    [ "Product_Sub_category", "xPath", "//*[@id='container']/div/div[3]/div[3]/div/a/div/div/img[2]" ],
-    [ "Select_Product", "xPath", "//*[@id='container']/div/div[3]/div[1]/div[1]/div[2]/div/ul/li[1]/button" ],
-    [ "Add_To_Cart", "xPath", "//*[@id='container']/div/div[3]/div/div[2]/div[2]/div/div/div/a/div[2]/div[1]/div[1]" ]
-  ],
+    [ "Product_Category", "xPath", "//div[text()='Mobiles']" ],
+    [ "Product_Sub_category", "xPath", "//img[@alt='Pixel 7 PL' and @class='kJjFO0']" ],
+    [ "Select_Product", "xPath", "//img[@alt='GooglePixel7pro-2 ' and @class='kJjFO0 _3DIhEh']" ],
+    [ "Add_To_Cart", "xPath", "//button[text()='Add to cart']" ]
+  ], 
 
   "constants": [
     [ "username", "asdf@asdf.com" ],
